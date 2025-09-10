@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty - O Site Oficial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff66b2;
+            padding: 20px;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #ff66b2;
+        }
+        footer {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo da Hello Kitty!</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Quem é a Hello Kitty?</h2>
+            <p>Hello Kitty é um ícone global criado pela empresa japonesa Sanrio. Conhecida por seu laço vermelho e design adorável, ela conquistou corações no mundo todo desde sua estreia em 1974.</p>
+            <img src="https://via.placeholder.com/400x300.png?text=Hello+Kitty" alt="Imagem da Hello Kitty">
+        </div>
+
+        <div class="section">
+            <h2>História</h2>
+            <p>Hello Kitty foi criada por Yuko Shimizu e apareceu pela primeira vez em um pequeno porta-moedas. Desde então, ela se tornou um fenômeno cultural, aparecendo em produtos que vão de roupas a acessórios e até parques temáticos!</p>
+        </div>
+
+        <div class="section">
+            <h2>Curiosidades</h2>
+            <ul>
+                <li>Hello Kitty não tem boca, o que permite que as pessoas projetem suas próprias emoções nela.</li>
+                <li>Ela tem uma irmã gêmea chamada Mimmy, que usa um laço amarelo.</li>
+                <li>Seu nome completo é Kitty White, e ela é de Londres, Inglaterra!</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Site não oficial da Hello Kitty. Feito com 💖 para os fãs!</p>
+    </footer>
+</body>
+</html>
